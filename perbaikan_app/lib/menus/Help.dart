@@ -53,7 +53,70 @@ class HelpWidget extends StatelessWidget {
           ],
         ),
       ),
-    ]
+              Padding(
+                  padding: EdgeInsets.only(top: 0),
+                  child: Text(
+                    'Hello, Cara menggunakan aplikasi ini adalah,',
+                    textAlign: TextAlign.center,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'pertama pengguna dapat memilih menu aduan,',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'Pilih tambah aduan Selanjutnya isi form untuk',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'tambah aduan lalu klik kirim Laporan aduan yang',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'telah dikirimkan dapat dilihat progres nya melalui',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'menu progress yang dapat dipantau sampai perbaikan',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 0),
+                child: Text(
+                  'fasilitas tersebut benar-benar selesai',
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+              ),
+            ]
     )
     )
         )
