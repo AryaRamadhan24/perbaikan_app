@@ -116,6 +116,33 @@ class HelpWidget extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
+              Padding(
+                padding: EdgeInsets.only(top: 5),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text('Team Pengembang',
+                        style: TextStyle(
+                            fontFamily: 'Quicksand',
+                            color: Colors.black,
+                            fontSize: 30, fontWeight: FontWeight.bold)),
+                  ],
+                ),
+              ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Image.asset('assets/images/aena.png'),
+                ),
+                Expanded(
+                  child: Image.asset('assets/images/arya.png'),
+                ),
+                Expanded(
+                  child: Image.asset('assets/images/devy.png'),
+                ),
+              ],
+            )
             ]
     )
     )
